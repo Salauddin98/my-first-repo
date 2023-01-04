@@ -1,0 +1,39 @@
+.h1{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    background: green;
+    color: yellow;
+    padding: 20px;
+}
+body{
+    background-color: bisque;
+}
+nav ul{
+    display: flex;
+    float: right;
+   
+}
+nav ul li{
+    list-style: none;
+    margin: 0 50px 0 5px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    color: #000;
+}
+nav ul li a:hover{
+    color: #fb5200;
+    transition: 0.5s;
+}
+label{
+    display: block;
+    margin: 10px 0;
+}
+label.change {
+    margin-left: 35px;
+    /* margin-right: 31px; */
+}
